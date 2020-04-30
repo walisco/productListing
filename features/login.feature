@@ -6,6 +6,7 @@ Feature: As a user I want to login in order to purchase items
     Scenario: login to zoro and successfully login
         When I enter login details "test150420@gmail.com", "9999999" and submit
         Then I am successfully logged in and can see "My Account" link
+        And I click My Account>Logout takes me to the homepage with link to "Log in"
 
     Scenario: login to zoro unsuccessful using invalid login details
         When I enter login details "ffdfffdfd@w.czzzzzz", "9999999" and submit

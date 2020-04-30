@@ -116,7 +116,7 @@ exports.config = {
 
     beforeScenario: () => {
         browser.maximizeWindow();
-        browser.deleteAllCookies();
+        // browser.deleteAllCookies();
     },
     
     framework: 'cucumber',
