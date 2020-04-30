@@ -19,7 +19,6 @@ When(
 When(
   /^I see validation error on page "([^"]*)"$/, 
   errorMessage => {
-    browser.pause(3000)
     expect(LoginPage.loginError.getText()).toEqual(errorMessage)}
 )
 
