@@ -1,15 +1,15 @@
 Feature: As a user I want to login in order to purchase items
 
     Background: Navigate to zoro login page
-    Given I am navigated to the zoro login screen "www.zoro.co.uk/login"
+    Given I am navigated to the zoro login screen
 
     Scenario: login to zoro and successfully login
-        When I enter login details "test150420@gmail.com", "9999999" and submit
+        When I enter valid login details from test data
         Then I am successfully logged in and can see "My Account" link
         And I click My Account>Logout takes me to the homepage with link to "Log in"
 
     Scenario: login to zoro unsuccessful using invalid login details
-        When I enter login details "ffdfffdfd@w.czzzzzz", "9999999" and submit
+        When I enter invalid login details from test data
         Then I see validation error on page "Invalid email address or password"
 
 

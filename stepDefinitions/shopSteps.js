@@ -1,6 +1,6 @@
-import ShopPage from '../pages/shop.page'
+import ShopPage from '../pages/shopPage'
 import { When } from 'cucumber';
-import Homepage from '../pages/homepage';
+import Homepage from '../pages/homePage';
 
 When(
     /^I am successfully logged in and can see "([^"]*)" link$/, myAccount => {

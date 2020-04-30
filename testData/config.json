@@ -1,0 +1,12 @@
+{
+    "valid": {
+        "username": "test150420@gmail.com",
+        "password": "9999999"
+    },
+    "invalid": {
+        "username": "fdfd@zzz.cyyyy",
+        "password": "11111"
+    },
+    "loginURL": "www.zoro.co.uk/login",
+    "registrationURL": "www.zoro.co.uk/registration"
+}

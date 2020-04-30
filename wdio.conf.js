@@ -124,7 +124,7 @@ exports.config = {
         compiler: ["js:babel/register"],
         snippets: true,
         requireModule: ['@babel/register'],
-        require: ["./step-definitions/*.js"],
+        require: ["./stepDefinitions/*.js"],
         ignoreUndefinedDefinitions: false
     },
     //
